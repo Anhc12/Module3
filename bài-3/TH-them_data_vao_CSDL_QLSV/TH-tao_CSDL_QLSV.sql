@@ -79,7 +79,6 @@ VALUES ('Manh', 'HCM', '0123123123', 0, 2);
 select * from mark
 
 
-
 insert into Subject 
 value (1,'cf',5,1),
 (2,'C',6,1),

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang Web Đọc Truyện</title>
+    <style>
+      /* CSS tổng thể */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+
+      /* Định dạng container chính */
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Định dạng ảnh truyện ở đầu trang */
+      .story-image {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 20px;
+      }
+
+      /* Định dạng tiêu đề trang */
+      h1 {
+        text-align: center;
+        color: #2c3e50;
+        margin-bottom: 30px;
+      }
+
+      /* Định dạng mục lục */
+      .toc {
+        background-color: #ecf0f1;
+        padding: 15px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+      }
+
+      .toc h5 {
+        margin: 10px 0;
+        font-size: 18px;
+      }
+
+      .toc a {
+        text-decoration: none;
+        color: #2980b9;
+        transition: color 0.3s ease;
+      }
+
+      .toc a:hover {
+        color: #e74c3c;
+        text-decoration: underline;
+      }
+
+      /* Định dạng nội dung chương */
+      .chapter {
+        margin-bottom: 40px;
+        line-height: 1.6;
+      }
+
+      .chapter h2 {
+        color: #2c3e50;
+        border-bottom: 2px solid #3498db;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+      }
+
+      .chapter p {
+        text-align: justify;
+      }
+
+      /* Định dạng nút quay lại đầu trang */
+      .back-to-top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #3498db;
+        color: #fff;
+        padding: 10px 15px;
+        border-radius: 5px;
+        text-decoration: none;
+        display: none;
+      }
+
+      .back-to-top:hover {
+        background-color: #2980b9;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Truyện: Hành Trình Phiêu Lưu</h1>
+
+      <div class="toc">
+        <h3>Mục Lục</h3>
+        <h5><a href="#chapter1">Chương 1: Khởi Đầu Hành Trình</a></h5>
+        <h5><a href="#chapter2">Chương 2: Gặp Gỡ Đồng Đội</a></h5>
+        <h5><a href="#chapter3">Chương 3: Thử Thách Đầu Tiên</a></h5>
+      </div>
+
+      <div id="chapter1" class="chapter">
+        <h2>Chương 1: Khởi Đầu Hành Trình</h2>
+        <p>
+          Ngày hôm đó, bầu trời trong xanh không một gợn mây. Nam, một chàng
+          trai trẻ đầy nhiệt huyết, quyết định rời khỏi ngôi làng nhỏ bé của
+          mình để bắt đầu một hành trình phiêu lưu. Với chiếc ba lô trên vai và
+          thanh kiếm cũ kỹ của cha để lại, cậu bước đi mà không biết rằng những
+          thử thách lớn đang chờ đợi phía trước...
+        </p>
+        <p>
+          Cậu đi qua những cánh đồng lúa chín vàng, nơi những người nông dân
+          đang chăm chỉ làm việc. Nam dừng lại để giúp một ông lão gánh nước, và
+          ông lão đã kể cho cậu nghe về một truyền thuyết cổ xưa về một kho báu
+          ẩn giấu trong khu rừng cấm.
+        </p>
+      </div>
+
+      <div id="chapter2" class="chapter">
+        <h2>Chương 2: Gặp Gỡ Đồng Đội</h2>
+        <p>
+          Trong khu rừng cấm, Nam bất ngờ gặp Linh, một cô gái bí ẩn với khả
+          năng sử dụng phép thuật. Linh đang bị một con sói lớn tấn công, và Nam
+          đã dũng cảm lao vào cứu cô. Sau khi đánh bại con sói, Linh cảm kích và
+          quyết định đồng hành cùng Nam trên hành trình.
+        </p>
+        <p>
+          Họ cùng nhau vượt qua những con đường mòn đầy nguy hiểm, đối mặt với
+          những sinh vật kỳ lạ và những cạm bẫy chết người. Tình bạn giữa họ
+          ngày càng bền chặt, và họ nhận ra rằng chỉ có làm việc cùng nhau, họ
+          mới có thể vượt qua mọi thử thách.
+        </p>
+      </div>
+
+      <div id="chapter3" class="chapter">
+        <h2>Chương 3: Thử Thách Đầu Tiên</h2>
+        <p>
+          Cuối cùng, Nam và Linh đến được một ngôi đền cổ xưa nằm sâu trong khu
+          rừng. Ngôi đền được bảo vệ bởi một con rồng khổng lồ, và để vào được
+          bên trong, họ phải vượt qua bài kiểm tra của rồng: giải một câu đố hóc
+          búa.
+        </p>
+        <p>
+          Sau nhiều giờ suy nghĩ, Linh đã tìm ra đáp án cho câu đố, và con rồng
+          cho phép họ bước vào ngôi đền. Bên trong, họ tìm thấy một chiếc hộp
+          nhỏ phát ra ánh sáng lấp lánh. Khi mở hộp ra, họ phát hiện một viên
+          ngọc quý – chìa khóa để mở ra cánh cửa tiếp theo của hành trình...
+        </p>
+      </div>
+    </div>
+
+    <a href="#" class="back-to-top">Quay lại đầu trang</a>
+
+    <script>
+      window.onscroll = function () {
+        let backToTop = document.querySelector(".back-to-top");
+        if (
+          document.body.scrollTop > 100 ||
+          document.documentElement.scrollTop > 100
+        ) {
+          backToTop.style.display = "block";
+        } else {
+          backToTop.style.display = "none";
+        }
+      };
+    </script>
+  </body>
+</html>
